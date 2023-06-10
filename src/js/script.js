@@ -34,3 +34,18 @@ icon2.addEventListener('click', () => {
     }
 })
 
+
+
+const person = {
+    id: 3,
+    name: 'downia',
+    age: 47,
+}
+
+person.id = 55
+
+
+const bazyl = person.id
+
+
+console.log(bazyl)
